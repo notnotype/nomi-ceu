@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@meza/curseforge-fingerprint": "^1.0.11"
+  }
+}

@@ -18,7 +18,7 @@
 
 ## 开始游玩
 
-- 服务器地址：z347.work
+- 服务器地址：z3475.work
 - telgrame 交流群： https://t.me/+vDQrJduAbwFjZTZl
 - KOOK（2023/1/26过期）：https://kook.top/h2YVPq
 

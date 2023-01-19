@@ -1,7 +1,6 @@
 from pathlib import Path
 import requests
 from icecream import ic
-from zipfile import ZipFile
 import hashlib
 import re
 import subprocess
@@ -79,7 +78,7 @@ def calc_fingerprint(path: str | Path):
   return int(result)
 
 manifest_mod_file = []
-source_dir = Path('/mnt/d/Notype/things/mc/nomi-ceu-bak/versions/nomi-ceu (1.4.3)/')
+source_dir = Path('/mnt/d/Notype/things/mc/nomi-ceu/versions/nomi-ceu (1.4.3)/')
 target_dir = Path('/home/notnotype/Desktop/nomi-ceu-client-1.4.3/')
 
 for each in (i for i in (source_dir / 'mods').glob('*') if i.is_file()):
